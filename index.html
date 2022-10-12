@@ -51,6 +51,26 @@
             border-radius: 21px;
         }
 
+        .picMap {
+            max-width: 600px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            border-radius: 36px;
+        }
+
+        .mapBanner {
+            text-align: center;
+            color: #9B5664;
+            font-weight: bold;
+        }
+
+        .mapContent {
+            color: #BA828D;
+            font-weight: bold;
+        }
+
         .poster {
             display: block;
             margin-left: auto;
@@ -103,7 +123,31 @@
 
         <div class="container">
             <div id="home">
-                <img class="img-fluid poster" src="pic/page-0.png" />
+                <div class="row"><img class="img-fluid poster" src="pic/page-0.png" /></div>
+                <div class="row">
+                    <h4 class="mapBanner">音樂館交通訊息</h4>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid picMap" src="pic/map.png" />
+                        </div>
+                    </div>                    
+                    <div class="row mapContent">
+                        <div class="col">
+                            <h5 style="font-weight:900">搭車民眾</h5>
+                            <ul>
+                                <li>搭乘捷運（橘線）至鹽埕埔站（車站編號O2）下車，步行約五分鐘到達。</li>
+                                <li>搭乘市公車0南、0北、25、33、76、77、91、219等路號至高雄市立歷史博物館下車，再步行約二分鐘到達。</li>
+                            </ul>
+                            <h5 style="font-weight:900">開車民眾</h5>
+                            <ul>
+                                <li>車可停於高雄國際會議中心（前工商展覽中心）地下停車場入口在會議中心大門左側，因國際會議中心車場音樂館地下部分施工封閉，來館民眾請改走國際會議中心進出。</li>
+                                <li>車可停高雄市立歷史博物館廣場停車場(入口臨中正路)，步行約二分鐘到達。</li>
+                                <li>車可停於鹽埕立體停車場，步行約十分鐘到達。</li>
+                                <li>行動不便民眾前往音樂館，因國際會議中心車場音樂館地下部分施工封閉，建議車輛停放高雄國際會議中心地下停車場搭電梯至會議中心一樓，出大門沿人行道到達音樂館。</li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </div>                
             </div>
             <div id="program">
                 <div class="card">
